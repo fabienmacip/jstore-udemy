@@ -19,6 +19,20 @@
 
 /* NAV TOP */
 
-.nav-top {
-  
+.nav-top-container {
+  border-bottom: 1px solid #ccc;
 }
+
+.nav-top {
+  color: var(--main-color-gray);
+  font-weight: 600;
+}
+
+.nav-top .nav-message {
+  text-transform: uppercase;
+}
+
+.nav-top ul li a:hover {
+  color: var(--main-color);
+}
+
