@@ -6,8 +6,8 @@
 }
 
 .banner-promo {
-  height: 50px;
-  line-height: 50px;
+  /* height: 50px; */
+  line-height: 40px; 
   font-size: 1.3rem;
 }
 
@@ -26,6 +26,7 @@
 .nav-top {
   color: var(--main-color-gray);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .nav-top .nav-message {
@@ -36,3 +37,28 @@
   color: var(--main-color);
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+  .nav-items {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-message {
+    font-size: 0.7rem;  
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-message {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .nav-message {
+    display: none;
+  }
+}
