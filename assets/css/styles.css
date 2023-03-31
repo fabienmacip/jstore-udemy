@@ -6,3 +6,10 @@ i {
 i:hover {
   color: var(--main-color);
 }
+
+.logo h2 a {
+  display: block;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin: 30px 0; 
+}
