@@ -21,7 +21,8 @@ nav {
 .nav-container ul li a i {
   float: right;
   position: relative;
-  top: 4px;
+  top: 8px;
+  font-size: 0.8rem;
 }
 
 .nav-container ul li a:hover {
@@ -62,3 +63,39 @@ nav {
 .sub-nav li:hover .sub-nav {
   display: block !important;
 }
+
+/*   *   *   *   *   *   *   */
+/*         MEGA NAV          */
+/*   *   *   *   *   *   *   */
+
+.mega-sub-nav {
+  background-color: var(--main-color-white);
+}
+
+.mega-sub-nav .mega-item {
+  min-width: 250px;
+  border-right: 0.1px solid var(--main-color-gray);
+}
+
+.mega-sub-nav .mega-item h3 {
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+.mega-sub-nav .mega-item a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--main-color-gray);
+  border: none;
+}
+
+.mega-sub-nav .mega-item a:hover {
+    border: none;
+}
+
+.mega-sub-nav .mega-item:nth-child(3) {
+  border: none;
+}
+
+
+
