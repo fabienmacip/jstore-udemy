@@ -1,3 +1,9 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--main-color-white);
+}
+
 .nav-container {
   text-transform: uppercase;
   font-weight: 600;
@@ -8,6 +14,8 @@
   padding: 15px 0;
   border-top: 2px solid var(--main-color-white);
   border-bottom: 2px solid var(--main-color-white);
+  height: 30px;
+  line-height: 30px;
 }
 
 .nav-container ul li a:hover {

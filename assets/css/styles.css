@@ -13,3 +13,7 @@ i:hover {
   color: var(--main-color);
   margin: 30px 0; 
 }
+
+.pages {
+  height: 200vh;
+}
