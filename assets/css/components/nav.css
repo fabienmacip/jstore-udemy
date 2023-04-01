@@ -11,7 +11,7 @@ nav {
 
 .nav-container ul li a {
   display: block;
-  padding: 15px 0;
+  padding: 15px 10px;
   border-top: 2px solid var(--main-color-white);
   border-bottom: 2px solid var(--main-color-white);
   height: 30px;
@@ -27,13 +27,21 @@ nav {
   border-top: 2px solid var(--main-color);
 }
 
-
-
-
-.nav-left {
-
+.nav-container ul li:hover ul {
+  display: block;
 }
 
-.nav-right {
 
+/*   *   *   *   *   *   *   */
+/*          SUB NAV          */
+/*   *   *   *   *   *   *   */
+
+.sub-nav {
+  background-color: var(--main-color-white);
+  white-space: nowrap;
+}
+
+.sub-nav li a:hover {
+  background-color: var(--main-color);
+  color: var(--main-color-white) !important;
 }
