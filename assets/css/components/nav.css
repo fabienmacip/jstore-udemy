@@ -38,6 +38,10 @@ nav {
   display: block;
 }
 
+.nav-container ul li:hover .mega-sub-nav {
+  display: flex;
+}
+
 
 /*   *   *   *   *   *   *   */
 /*          SUB NAV          */
@@ -65,15 +69,17 @@ nav {
 }
 
 /*   *   *   *   *   *   *   */
-/*         MEGA NAV          */
+/*       MEGA SUB NAV        */
 /*   *   *   *   *   *   *   */
 
 .mega-sub-nav {
   background-color: var(--main-color-white);
+  display: none;
 }
 
 .mega-sub-nav .mega-item {
-  min-width: 250px;
+  min-width: 200px;
+  padding: 5px;
   border-right: 0.1px solid var(--main-color-gray);
 }
 
@@ -97,5 +103,38 @@ nav {
   border: none;
 }
 
+.mega-sub-nav .mega-item img {
+  width: 100%;
+  height: 380px;
+  background-color: rgb(241, 241, 241);
+  /* padding: 10px; */
+}
 
+.mega-sub-nav .mega-item .mega-item-content {
+  top: 20px;
+  right: 20px;
+}
 
+.mega-sub-nav .mega-item button {
+  bottom: 20px;
+  left: 20%;
+  background-color: var(--main-color-black);
+  color: var(--main-color-white);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 10px 5px;
+}
+
+.mega-sub-nav .mega-item .mega-item-content span {
+  font-size: 2rem;
+}
+
+.mega-sub-nav .mega-item .mega-item-content h4 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.mega-sub-nav .mega-item .mega-item-content h3 {
+  font-size: 3rem;
+  color: var(--main-color);
+}
