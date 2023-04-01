@@ -66,3 +66,27 @@
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+
+/*  *  *  *  *  *  *  *  */
+/*         MEDIA         */
+/*  *  *  *  *  *  *  *  */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .slider-content {
+    /* position: static; */
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 427px) {
+
+} 

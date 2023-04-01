@@ -3,6 +3,7 @@ nav {
   top: 0;
   background-color: var(--main-color-white);
   box-shadow: 2px 8px 12px -8px rgba(0, 0, 0, 0.2);
+  z-index: 99;
 }
 
 .nav-container {

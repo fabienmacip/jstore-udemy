@@ -1,0 +1,11 @@
+.promo-icon {
+  width: 50px;
+}
+
+.promo-item {
+  min-width: 300px;
+}
+
+.promo-item .promo-detail h3 {
+  font-size: 0.7rem;
+}
