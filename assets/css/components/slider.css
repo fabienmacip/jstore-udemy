@@ -67,6 +67,40 @@
   -o-border-radius: 0;
 }
 
+.slider-icon {
+  top: 40%;
+  width: 80px;
+  height: 80px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color-white);
+  cursor: pointer;
+
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.slider-icon i {
+  font-size: 1.5rem;
+}
+
+.slider-icon:hover {
+  background-color: var(--main-color-black);
+}
+
+.slider-icon.prev {
+  left: 20px;
+}
+
+.slider-icon.next {
+  right: 20px;
+}
+
 /*  *  *  *  *  *  *  *  */
 /*         MEDIA         */
 /*  *  *  *  *  *  *  *  */
