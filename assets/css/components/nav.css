@@ -84,9 +84,11 @@ nav {
   border-right: 0.1px solid var(--main-color-gray);
 }
 
-.mega-sub-nav .mega-item h3 {
+.mega-sub-nav .mega-item > h3 {
   padding: 0 10px;
   margin-bottom: 5px;
+  font-size: 1rem;
+  white-space: nowrap;
 }
 
 .mega-sub-nav .mega-item a {
@@ -139,4 +141,30 @@ nav {
 .mega-sub-nav .mega-item .mega-item-content h3 {
   font-size: 3rem;
   color: var(--main-color);
+}
+
+/*  *  *  *  *  *  *  *  */
+/*     MEDIA QUERIES     */
+/*  *  *  *  *  *  *  *  */
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .nav-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 427px) {
+
 }

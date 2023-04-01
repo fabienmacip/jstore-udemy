@@ -157,6 +157,23 @@
 
   .website-details {
     padding: 0 5px;
+    border: none;
+  }
+
+  .nav-top {
+    padding: 5px;
+  }
+
+  .banner-promo {
+    font-size: 0.5rem;
+  }
+
+  .logo h2 a {
+    margin: 5px 0;
+  }
+  
+  .logo h2 {
+    margin: 0;
   }
 }
 
