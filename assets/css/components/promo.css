@@ -2,10 +2,42 @@
   width: 50px;
 }
 
+.promo-icon i {
+  color: var(--main-color);
+  font-size: 1.5rem;
+}
+
 .promo-item {
   min-width: 300px;
 }
 
 .promo-item .promo-detail h3 {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .promo-item {
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-container {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .promo-item {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 427px) {
+
 }
