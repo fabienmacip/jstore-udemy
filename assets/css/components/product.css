@@ -1,4 +1,4 @@
-.products-list {
+.featured-products .products-list {
   flex-wrap: wrap;
 }
 
@@ -99,7 +99,10 @@ span.badge.hot {
 }
 
 @media screen and (max-width: 1200px) {
-
+  .new-arrivals-products .products-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 992px) {
