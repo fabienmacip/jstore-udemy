@@ -1,0 +1,29 @@
+.special-product-item {
+  height: 120px;
+  width: 300px;
+  border: 1px solid var(--main-color-gray);
+}
+
+.special-product-item .special-product-image img {
+  width: 100px;
+}
+
+.special-product-item .special-product-image img {
+  height: 100%;
+}
+
+.special-product-item .special-product-details del {
+  color: var(--main-color-gray);
+}
+
+.special-product-item .special-product-details h4 {
+  margin: 0;
+}
+
+.special-product-item .special-product-details {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
