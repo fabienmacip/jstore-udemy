@@ -21,3 +21,10 @@ i:hover {
 .pages {
   height: 200vh;
 }
+
+.banner-divider {
+  height: 200px;
+  background-image: url("../images/banner/banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
