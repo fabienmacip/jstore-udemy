@@ -28,3 +28,8 @@ i:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.divider {
+  border: 0.1px solid var(--main-color-gray);
+  margin: 20px 0;
+}
