@@ -7,10 +7,17 @@
   border: 1px solid #ccc;
   margin-bottom: 10px;
   cursor: pointer;
+  padding: 5px;
 }
 
 .special-product-item:hover {
   box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.special-product-item .product-name h3 {
+  font-weight: normal;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .special-product-item .special-product-image {
